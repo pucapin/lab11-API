@@ -1,0 +1,77 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+#container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#agentcard {
+    width: 20%;
+    height: 20%;
+    margin: 30px;
+    border: 3px solid black;
+    border-radius: 30px;
+    padding-bottom: 0;
+    min-width: 450px;
+    min-height: auto;
+    background-color:rgb(201, 220, 237);
+}
+
+#sec {
+    display: flex;
+    flex-direction: row;
+}
+
+#name {
+    color: darkblue;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+#boldp {
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 16px;
+    padding-right: 16px;
+
+}
+
+#line {
+    height: 2px;
+    width: 100%;
+    background-color: black;
+}
+
+#desc {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+#img {
+    border-radius: 30px;
+    height: 200px;
+    width: auto;
+}
+
+#top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+#searchbar {
+    width: 350px;
+    height: 24px;
+    border-radius: 30px;
+    border: 1px solid darkblue;
+    padding: 5px;
+
+}

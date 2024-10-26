@@ -1,5 +1,5 @@
 body {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: black;
 }
 #container {
@@ -15,12 +15,15 @@ body {
     width: 20%;
     height: 20%;
     margin: 30px;
-    border: 3px solid black;
+    border: 3px solid white;
     border-radius: 30px;
     padding-bottom: 0;
     min-width: 450px;
     min-height: auto;
     background-color:rgb(201, 220, 237);
+    -webkit-box-shadow:0px 0px 19px 1px rgba(45,255,196,0.9);
+    -moz-box-shadow: 0px 0px 19px 1px rgba(45,255,196,0.9);
+    box-shadow: 0px 0px 19px 1px rgba(45,255,196,0.9);
 }
 
 #sec {
@@ -57,6 +60,7 @@ body {
     border-radius: 30px;
     height: 200px;
     width: auto;
+    margin-right: 20px;
 }
 
 #top {
